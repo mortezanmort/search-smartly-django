@@ -112,3 +112,11 @@ python manage.py runserver
 
 ### Testing:
 - Implement test cases using a testing framework like pytest to ensure the correctness and reliability of the application.
+
+## Data
+
+- The files with different formats are contained in the Data folder.
+- Since, CSV file was too large, I did not add it in this repository.
+- For any future files, the data should be added in Data folder.
+- The parser for reading different types of files is adjusted to reading only 3 formats for now: *csv*, *json* and *xml*
+- For scalabilty, if more files and formats are to be added, the ```import_poi_data.py``` file would have to be updated to support other types of parsings. 
